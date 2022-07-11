@@ -45,7 +45,6 @@ const Hero = () => {
       display="flex"
       justifyContent="space-between"
       alignItems="center"
-      h="90vh"
       overflow="hidden"
       flexWrap={{ sm: 'wrap', md: 'nowrap' }}
     >
@@ -54,9 +53,8 @@ const Hero = () => {
         justifyContent="flex-start"
         alignItems="center"
         flexDirection="column"
-        h="80vh"
         w="40%"
-        mt="8rem"
+        mt="-8rem"
       >
         <Box fontSize="4rem">Aryan Shinde</Box>
         <Box fontSize="1.6rem" lineHeight="2rem" textAlign="center">
@@ -79,10 +77,10 @@ const Hero = () => {
           <Image m="0.8rem" ml="0.5rem" src={medium} />
         </Box>
 
-        <Box left="15%" top="60%" position="absolute" zIndex="-1">
+        <Box left="15%" bottom="-40%" position="absolute" zIndex="-1">
           <Image src={portfolioDoodle} />
         </Box>
-        <Box left="44%" top="50%" position="absolute" zIndex="-1">
+        <Box left="44%" bottom="-35%" position="absolute" zIndex="-1">
           <Image src={portfolioDoodle} />
         </Box>
         <Box animation={anim} top="100%" position="absolute" zIndex="-1">
@@ -110,7 +108,7 @@ const Hero = () => {
           <Image src={float3} />
         </Box>
       </Box>
-      <Box h="90vh" mt="7rem">
+      <Box>
         <Image src={portfolioHero} />
       </Box>
       <Box
@@ -118,9 +116,8 @@ const Hero = () => {
         justifyContent="flex-start"
         alignItems="flex-start"
         flexDirection="column"
-        h="80vh"
         w="36%"
-        mt="8rem"
+        mt="-14rem"
       >
         <Box fontSize="3.5rem">Web Developer</Box>
         <Box w="70%">
