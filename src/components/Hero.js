@@ -39,7 +39,6 @@ const Hero = () => {
   const anim3 = `${floatAnime} 10s infinite alternate`;
   const anim4 = `${floatAnime} 12s infinite alternate`;
   const socialAnime = `${floatAnime2} 1.8s infinite alternate ease-in-out`;
-  const style = {};
   return (
     <Box
       position="relative"

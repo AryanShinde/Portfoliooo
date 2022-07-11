@@ -1,17 +1,13 @@
 import { Image } from '@chakra-ui/image';
 import { Box } from '@chakra-ui/layout';
 import portfolioLogo from '../assets/portfolioLogo.png';
-import { Button } from '@chakra-ui/button';
 import {
   Popover,
   PopoverTrigger,
   PopoverContent,
   PopoverHeader,
   PopoverBody,
-  PopoverFooter,
-  PopoverArrow,
   PopoverCloseButton,
-  PopoverAnchor,
 } from '@chakra-ui/react';
 const Nav = () => {
   const vals = [
